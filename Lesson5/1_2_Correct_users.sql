@@ -1,0 +1,5 @@
+ALTER TABLE `users`
+CHANGE COLUMN `created_at` `created_at` DATETIME NULL DEFAULT NULL ,
+CHANGE COLUMN `updated_at` `updated_at` DATETIME NULL DEFAULT NULL ;
+
+SELECT * FROM users;
