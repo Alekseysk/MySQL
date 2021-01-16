@@ -1,0 +1,1 @@
+SELECT avg(YEAR(NOW())-YEAR(birth_date)) FROM users;

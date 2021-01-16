@@ -1,0 +1,1 @@
+SELECT ROUND(EXP(SUM(LOG(COALESCE(number, 1)))),3) as mlt FROM test;

@@ -1,0 +1,1 @@
+SELECT * FROM users WHERE MONTHNAME(birth_date) in ('May', 'August');
